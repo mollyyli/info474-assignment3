@@ -5,6 +5,10 @@ path {
     fill: none;
 }
 
+#filter {
+    display: inline-block;
+}
+
 .axis path,
 .axis line {
     fill: none;
@@ -17,7 +21,7 @@ div.tooltip {
     position: absolute;
     text-align: center;
     width: 120px;
-    height: 80px;
+    height:60px;
     padding: 2px;
     font: 12px sans-serif;
     background: lightsteelblue;
